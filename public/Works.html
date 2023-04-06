@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" href="/style.css" />
+  <title>WEI DAI</title>
+</head>
+
+<nav class="nav-bar">
+   <a href="/">home</a> <a href="/About">about</a> <a href="/Links">links</a>
+  </nav> 
+
+<body>
+  <ol>
+    <li>
+      <h3><a href="https://patents.google.com/patent/US6081598A/en">Code d'authentification de message</a></h3>
+  <img id="workWei" src="/workWei.png" alt="schema Code d'authentification de message "/>
+    <p>
+    Un code d'authentification de message (CAM)1, souvent désigné par son sigle anglais MAC (de message authentication code) est un code accompagnant des données dans le but d'assurer l'intégrité de ces dernières, en permettant de vérifier qu'elles n'ont subi aucune modification, après une transmission par exemple.
+  
+    Le concept est relativement semblable aux fonctions de hachage. Il s’agit ici aussi d’algorithmes qui créent un petit bloc authentificateur de taille fixe. La grande différence est que ce bloc authentificateur ne se base plus uniquement sur le message, mais également sur une clé secrète.
+  
+    Tout comme les fonctions de hachage, les MAC n’ont pas besoin d’être réversibles. En effet, le récepteur exécutera le même calcul sur le message et le comparera avec le MAC reçu.
+  
+    Le MAC assure non seulement une fonction de vérification de l'intégrité du message, comme le permettrait une simple fonction de hachage mais de plus authentifie l’expéditeur, détenteur de la clé secrète. 
+    Il peut également être employé comme un chiffrement supplémentaire (rare) et peut être calculé avant ou après le chiffrement principal, bien qu’il soit généralement conseillé de le faire après (Encrypt-then-MAC, on chiffre d'abord le message, puis on transmet le message chiffré ainsi que son MAC).
+  </p>
+    </li>
+    <li>
+      <h3><a href="https://patents.google.com/patent/US5724279A/en">Procédé mis en oeuvre par ordinateur pour effectuer une réduction modulaire</a></h3>
+      <p>
+        Cette invention concerne une méthode informatique pour effectuer une opération de réduction modulaire "X mod M" et réaliser des calculs modulaires sur un ordinateur. Dans une première étape, le nombre X, écrit en base α, est réduit de k+1 blocs à un entier à n+1 blocs Y équivalent à X modulo M. 
+        Ce processus est réalisé grâce à un schéma de réduction et de compensation, qui utilise une série d'opérations de multiplication et d'addition/soustraction simples, plus rapides que les techniques classiques pour effectuer l'opération "X mod M". 
+        La phase de réduction consiste à réduire le nombre X à une valeur intermédiaire égale à X mod αk. 
+        La phase de compensation nécessite un ajustement pour produire une valeur réduite XR équivalente à X modulo M. Cette phase peut être mise en œuvre en ajoutant un multiple de αn+1 mod M, ou en soustrayant un multiple de M-(αn+1 mod M). La deuxième étape réduit davantage l'entier à n+1 blocs Y en un entier à n blocs Z équivalent. 
+        Les calculs intermédiaires peuvent s'arrêter après la première ou la deuxième étape, mais l'entier Z résultant pourrait être supérieur au module M, nécessitant une réduction supplémentaire pour obtenir un résultat final. 
+        Ainsi, la troisième étape consiste à réduire l'entier Z en un reste équivalent R tel que 0 ≦ R < M.
+      </p>
+      <img id="workWei" src="/work2wei.png" alt="schema Code d'authentification de message "/>
+    </li>
+    <li>
+      <h3><a>B-money</a></h3>
+      <p>                         DYOR</p>
+    </li>
+  </ol>
+
+</body>
